@@ -15,7 +15,7 @@
 html,
 body{
   height: 100%;
-  font-family: "Poppoins", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-black);
