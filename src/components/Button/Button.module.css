@@ -1,4 +1,5 @@
 .button{
+    font-family: "Poppoins", Arial;
     background-color: var(--color-black);
     color: var(--color-primary);
     border-radius: 12px;
