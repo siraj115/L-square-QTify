@@ -1,11 +1,14 @@
 import React from "react";
 import Styles from "./Card.module.css";
-
+import {Tooltip, Chip} from "@mui/material"
 const Card = ({data, type})=>{
+    console.log(type, data)
     const getCard = (type)=>{
         switch(type){
             case "album":{
+                console.log(data)
                 const {image, title, follows, songs, slug} = data;
+
                 return <>
                     <Tooltip title={`${songs.length} songs`} placement="top" arrow  >
                         <a href={`/album/${slug}`}>
@@ -21,7 +24,7 @@ const Card = ({data, type})=>{
                                     </div>
                                 </div>
                                 <div className={Styles.titleWrapper}>
-                                    <p>{title}</p>
+                                    <p className={Styles.title}>{title}</p>
                                 </div>
                             </div>
                         </a>

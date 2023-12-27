@@ -40,5 +40,8 @@ overflow: hidden;
 
 .chip{
     color: var(--color-white);
-    background-color: var(--color-white);
+    background-color: var(--color-black);
+}
+.title{
+    color: var(--color-white);
 }
