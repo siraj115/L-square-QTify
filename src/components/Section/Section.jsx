@@ -11,7 +11,7 @@ const Section = ({title,data, type})=>{
     }
   //  console.log(type, data)
     return <>
-        <div>
+        <div >
             <div className={Styles.header} >
                 <h3>{title}</h3>
                 <h4 className={Styles.toggleText} onClick={handleToggle}>{!carouselToggle ?"Collapse All":"Show All"}</h4>

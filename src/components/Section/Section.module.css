@@ -1,7 +1,12 @@
+.wrapper{
+    
+}
 .header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-left:20px ;
+    padding-right:20px ;
 }
 .toggleText{
     cursor: pointer;
@@ -9,6 +14,8 @@
 }
 .cardWrapper{
     margin-top: 18px;
+    padding-left:20px ;
+    padding-right:20px ;
 }
 .wrapper{
     display: flex;
