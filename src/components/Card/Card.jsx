@@ -14,7 +14,7 @@ const Card = ({data, type})=>{
                         <a href={`/album/${slug}`}>
                             <div className={Styles.wrapper}>
                                 <div className={Styles.card}>
-                                    <img src={image} alt="song" loading="lazy" />
+                                    <img src={image} alt="song" loading="lazy" width="160" height="180"/>
                                     <div className={Styles.banner}>
                                         <Chip 
                                             label={`${follows} Follows`}
