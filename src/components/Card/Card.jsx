@@ -2,11 +2,11 @@ import React from "react";
 import Styles from "./Card.module.css";
 import {Tooltip, Chip} from "@mui/material"
 const Card = ({data, type})=>{
-    console.log(type, data)
+    //console.log(type, data)
     const getCard = (type)=>{
         switch(type){
             case "album":{
-                console.log(data)
+                //console.log(data) 
                 const {image, title, follows, songs, slug} = data;
 
                 return <>
