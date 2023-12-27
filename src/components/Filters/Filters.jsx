@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Styles from "./Filters.module.css"
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
-    console.log(value, index)
+    //console.log(value, index)
   return (
     <div
       role="tabpanel"
@@ -54,7 +54,7 @@ function Filters({filters, selectedFilterIndex, setSelectedFilterIndex}) {
         </Tabs>
         {
             filters.map((ele,idx)=>(
-                <TabPanel value={ele.label} index={idx} />       
+                <TabPanel value={ele.label} index={idx} key={`${idx}-${ele.label}`}/>       
             ))
         }
     </div>
